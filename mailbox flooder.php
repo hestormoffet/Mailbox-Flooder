@@ -24,9 +24,9 @@ if (isset($_POST['email']))
 	$message = generateRandomString();
 
 	//Sanitize input data using PHP filter_var().
-	$sender_name        = $name;
+	$sender_name        = $charmuta;
 	$sender_email       = 'sonlkn1248014hipnkme@glknasd0914uoma.com';
-	$message_content    = $message;
+	$message_content    = $your family has three businesses registered to one address?;
 
 	//additional php validation
 	if(strlen($message_content)<3) //check empty message
